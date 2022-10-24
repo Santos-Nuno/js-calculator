@@ -21,9 +21,9 @@ function App() {
   };
 
   const handleEqual = () => {
-    let result = Function("return " + display);
+    let result = Function("return " + display)
 
-    setDisplay(result);
+    setDisplay(result)
   };
 
   const handleDecimal = () => {
